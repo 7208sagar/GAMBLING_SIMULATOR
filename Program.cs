@@ -7,6 +7,8 @@ namespace GamblingSimulation
         static void Main(string[] args)
         {
             Console.WriteLine("*****WELLCOME GAMBLING SIMULATION!*****");
+            Gambler gambler = new Gambler();
+            gambler.Betting();
         }
     }
 }
